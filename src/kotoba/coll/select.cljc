@@ -1,9 +1,10 @@
 (ns kotoba.coll.select
-  "select -- one definition, addressed on its own.
+  "select -- addressed on its own.
 
-  Split out of kotoba.lang.text on 2026-09-09. The unit here is the
-  DEFINITION, not the library: this repo holds select and names, in its
-  deps.edn, exactly the definitions select reaches. Nothing else."
+  Split out of kotoba.lang.coll on 2026-09-09 (ADR-2609091200). The unit
+  here is the DEFINITION, and this repo's deps.edn names exactly the
+  definitions it reaches -- nothing else.
+"
   )
 
 (defn select
